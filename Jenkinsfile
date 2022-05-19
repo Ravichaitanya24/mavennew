@@ -4,10 +4,10 @@ pipeline
     stages
     {
         stage('continous download')
-        {
+ 	    {
             steps
             {
-                git 'https://github.com/intelliqittrainings/maven.git'
+                git 'https://github.com/Ravichaitanya24/mavennew.git'
             }
         }
         stage('continous build')
